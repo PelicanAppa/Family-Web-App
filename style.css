@@ -1,0 +1,39 @@
+body
+{
+  color: black;
+  background: linear-gradient(90deg, rgb(255, 191, 0), #da700c);
+  cursor: pointer;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px hidden black;
+  width: 350;
+  height: 350; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 5px;
+}
+.heading:hover{
+    cursor: default;
+}
+button:hover{
+    cursor: default;
+}
